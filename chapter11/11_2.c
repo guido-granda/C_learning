@@ -39,7 +39,7 @@ int main(void)
 
 		printf("who is %s's mother?",My_horses[hcount].name);
 		scanf("%s",My_horses[hcount].mother);
-
+		test = '\0';
 	}
 	for (hcount=0;hcount<50; hcount++)
 	{
