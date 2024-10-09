@@ -13,7 +13,7 @@ int main(void)
         printf("\nEnter a value:");
         scanf("%lf",&value);
         total+=value;
-        ++count;
+        count++;
         printf("Do you want to enter another value?");
         scanf(" %c",&answer);
         if(tolower(answer) =='n')

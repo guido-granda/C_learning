@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int numbers[50];
+    int numbers[10];
     int count =10;
     long sum =0L;
     float average=0.0f;
